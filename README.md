@@ -1,99 +1,55 @@
-# [Project Name] 🎯
+# DETECTING CAMERA 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Cyphers
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Sara Ajeeba -Government Engineering College Kozhikode
+- Member 2: Ayisha Zahrin - Government Engineering College Kozhikode
+- Member 3: Fathima Hindh -Government Engineering College Kozhikode
 
-### Hosted Project Link
-[mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
-
+This project is basically giving your camera a super power. It can spot colours in real time like a detective on a mission! Using OpenCV and some smart colour filtering, it tracks objects based on their colour. 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+We"re solving the ridiculous problem of losing things right in front of our eyes. This project uses computer vision to track objects by colour so you will never have to ask "where did I put that red notebook again?" Think of it as a tiny search robot for your everyday chaos.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+We"re solving it by capturing real time video using OpenCV. The system converts the feed to hsv colour space and applies masking it to detect specific colours. Finally it highlights and tracks the object making it easier to locate!
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Python
+-OpenCV
+-OpenCV
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+Technologies/Components Used
 
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+    Python
+    OpenCV
+    OpenCV
 
 For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+    [List main components]
+    [List specifications]
+    [List tools required]
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+Implementation
 
-# Build Photos
-![Team](Add photo of your team here)
+For Software:
+Installation
 
+pip install opencv-python numpy
+Run
 
-![Components](Add photo of your components here)
-*List out all components shown*
+[commands]
+Project Documentation
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
----
-Made with ❤️ at TinkerHub
+For Software:
+Screenshots (Add at least 3)
